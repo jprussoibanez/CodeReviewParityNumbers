@@ -42,3 +42,5 @@ dotnet test
 ## Built With
 
 * [.NET Core](https://www.microsoft.com/net/core) - .NET core 1.1
+* [xUnit](https://xunit.github.io/) - Testing framework
+* [Fluent Assertions](http://fluentassertions.com/) - Fluent assertions for testing
