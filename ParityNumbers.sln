@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4B4F8162-E092-4987-8DC0-78C6B5EF2BC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParityNumbers.ConsoleApp", "src\ParityNumbers.ConsoleApp\ParityNumbers.ConsoleApp.csproj", "{978343AC-F4B6-47A9-B1D5-F036CA4319B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2FB04561-6D06-4484-881B-064136B23F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParityNumbers.ConsoleApp.UnitTests", "tests\ParityNumbers.ConsoleApp.UnitTests\ParityNumbers.ConsoleApp.UnitTests.csproj", "{9C525A81-8563-475B-8BEA-78C33D5CCE79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{978343AC-F4B6-47A9-B1D5-F036CA4319B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978343AC-F4B6-47A9-B1D5-F036CA4319B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978343AC-F4B6-47A9-B1D5-F036CA4319B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978343AC-F4B6-47A9-B1D5-F036CA4319B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C525A81-8563-475B-8BEA-78C33D5CCE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C525A81-8563-475B-8BEA-78C33D5CCE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C525A81-8563-475B-8BEA-78C33D5CCE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C525A81-8563-475B-8BEA-78C33D5CCE79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{978343AC-F4B6-47A9-B1D5-F036CA4319B9} = {4B4F8162-E092-4987-8DC0-78C6B5EF2BC5}
+		{9C525A81-8563-475B-8BEA-78C33D5CCE79} = {2FB04561-6D06-4484-881B-064136B23F02}
+	EndGlobalSection
+EndGlobal
