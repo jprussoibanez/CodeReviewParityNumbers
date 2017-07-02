@@ -4,7 +4,7 @@ These exercise will identified code smells and apply refactors to improve the qu
 
 ## Getting Started
 
-This is a simple console app that calculates the parity number for a given sequence of numbers.
+This is a simple console app that calculates the parity for a given number sequence.
 
 ### Prerequisites
 
@@ -18,6 +18,27 @@ The following tools may help on developing and running the application
 2) Build the solution on visual studio.
 3) Run the console application.
 
+The sequence count is the first argument for the console application. It can be configure on the launchSettings.json file commandLineArgs attribute.
+
+```
+{
+  "profiles": {
+    "ParityNumbers.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "50"
+    }
+  }
+}
+```
+
+## Running the tests
+
+The unit test project ParityNumbers.ConsoleApp.UnitTests can be runned within the IDE or using:
+
+```
+dotnet test
+```
+
 ## Built With
 
-* [.NET Core](https://www.microsoft.com/net/core) - ASP.NET core
+* [.NET Core](https://www.microsoft.com/net/core) - .NET core 1.1
